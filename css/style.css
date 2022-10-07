@@ -1,9 +1,9 @@
-.container {
+body {
   border: 5px solid greenyellow;
   background: linear-gradient(to right, skyblue, white);
-  width: 99%;
-  height:5000px;
-  display: block;
+
+  height: 2000px;
+
 }
 
 .box1 {
@@ -55,6 +55,45 @@
   padding-right: 71px;
 }
 
+.circle {
+  width: 450px;
+  height: 450px;
+  background-color: rgba(42, 155, 42, 0.76);
+  border: 5px solid grey;
+  border-radius: 50%;
+  margin: 250px 50px;
+
+
+}
+
+.p1 {
+  margin: 50px 130px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+.p2 {
+  margin: 50px 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+.p3 {
+  margin: 50px 60px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+
+
+}
+
 .Contact-form {
   border: 5px dotted red;
   width: 400px;
@@ -62,6 +101,8 @@
   background-color: #fff;
   color: red;
   margin: -750px 600px;
+
+
 }
 
 .form input {
@@ -100,47 +141,104 @@ button {
   margin: 10px 160px;
 }
 
-.circle {
-  width: 450px;
-  height: 450px;
-  background-color: rgba(42, 155, 42, 0.76);
-  border: 5px solid grey;
-  border-radius: 50%;
-  margin: 250px 50px;
-}
-.p1 {
-  margin: 50px 130px;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-align: center;
 
-}
-.p2 {
-  margin: 50px 60px;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-align: center;
-
-}
-.p3 {
-  margin: 50px 60px;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-align: center;
-
-
-}
-.menu{width: 400px;
+.menu {
+  width: 400px;
   height: 15px;
-  background-color:black;
-color: #fff;
-border: 5px solid red;
-border-radius: 25px;
-text-align: center;
-margin: 800px 500px;
-padding: 25px;
-font-weight: bolder;
-font-size: 21px;}
+  background-color: black;
+  color: #fff;
+  border: 5px solid red;
+  border-radius: 25px;
+  text-align: center;
+  margin: 800px 500px;
+  padding: 25px;
+  font-weight: bolder;
+  font-size: 21px;
+}
+
+.tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -750px 0;
+
+
+}
+
+.tbl1 {
+  width: 30%;
+  height: auto;
+  background-color: aqua;
+  color: blue;
+  border: 1px solid rgba(42, 155, 42, 0.76);
+  border-radius: 15px;
+  text-align: center;
+  margin: 40px 0;
+  font-size:20px;
+
+}
+
+.tbl2 {
+  width: 30%;
+  height: auto;
+  background-color: aqua;
+  color: blue;
+  border: 1px solid rgba(42, 155, 42, 0.76);
+  border-radius: 15px;
+  text-align: center;
+  margin: 40px 0;
+  font-size:20px;
+
+}
+
+.tbl3 {
+  width: 30%;
+  height: auto;
+  background-color: aqua;
+  color: blue;
+  border: 1px solid rgba(42, 155, 42, 0.76);
+  border-radius: 15px;
+  text-align: center;
+  margin: 40px 0;
+  font-size:20px;
+
+}
+
+.tbl4 {
+  width: 30%;
+  height: auto;
+  background-color: aqua;
+  color: blue;
+  border: 1px solid rgba(42, 155, 42, 0.76);
+  border-radius: 15px;
+  text-align: center;
+  margin: 40px 0;
+  font-size:20px;
+
+}
+
+.tbl5 {
+  width: 30%;
+  height: auto;
+  background-color: aqua;
+  color: blue;
+  border: 1px solid rgba(42, 155, 42, 0.76);
+  border-radius: 15px;
+  text-align: center;
+  margin: 40px 0;
+  font-size:20px;
+
+}
+
+.tbl6 {
+  width: 30%;
+  height: auto;
+  background-color: aqua;
+  color: blue;
+  border: 1px solid rgba(42, 155, 42, 0.76);
+  border-radius: 15px;
+  text-align: center;
+  margin: 40px 0;
+  font-size:20px;
+
+}
